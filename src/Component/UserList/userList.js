@@ -5,6 +5,7 @@ const UserList = () => {
     useEffect(() => {
         const userList = async () => {
             const res = await fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json());
+            console.log(res);
             setUser(res);
         };
         userList();
