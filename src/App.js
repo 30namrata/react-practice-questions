@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './Component/Counter/counter';
 import FormHandling from './Component/FormHandling/formHandling';
+import Calculation from './Component/Hooks/useMemo';
 import GrandParent from './Component/Props/grandParent';
 import UserList from './Component/UserList/userList';
 
@@ -13,6 +14,7 @@ function App() {
         <UserList />
         <FormHandling />
         <GrandParent />
+        <Calculation />
       </header>
     </div>
   );
